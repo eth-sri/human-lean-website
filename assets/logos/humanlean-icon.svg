@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="-215 -215 515 515" role="img" aria-labelledby="title desc"><title id="title">HumanLean</title><desc id="desc">Indigo magnifying lens enclosing the for-all symbol, without lettering.</desc><g fill="#1E1B4B">
+      <g transform="rotate(45)">
+        <rect x="175" y="-16" width="78" height="32" />
+        <rect x="240" y="-34" width="124" height="68" rx="28" />
+      </g>
+      <circle r="176" fill="none" stroke="#1E1B4B" stroke-width="38" />
+      <path fill-rule="evenodd" d="M-90-78 H-54 L-37-34 H37 L54-78 H90         L14 110 H-14 Z M-27-7 L0 65 L27-7 Z" />
+    </g>
+    </svg>

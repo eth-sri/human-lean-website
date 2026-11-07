@@ -1,0 +1,265 @@
+{
+  "unit": "lines containing Lean code outside comments, excluding blank and comment-only lines",
+  "category_order": [
+    "definitions",
+    "axioms",
+    "numbered_results",
+    "helpers",
+    "outside"
+  ],
+  "labels": {
+    "definitions": "Definitions",
+    "axioms": "Axioms",
+    "numbered_results": "Results and proofs",
+    "helpers": "Helpers",
+    "outside": "External/background & other"
+  },
+  "artifacts": {
+    "local": {
+      "files": 25,
+      "internal_files": 25,
+      "categories": {
+        "definitions": 168,
+        "axioms": 161,
+        "numbered_results": 1510,
+        "helpers": 2779,
+        "outside": 0
+      },
+      "line_total": 4618,
+      "internal_lines": 4618,
+      "name": "HumanLean",
+      "presentation_subtotal_lines": 4618,
+      "internal_lines_semantics": "legacy chart alias for presentation_subtotal_lines; not strict mathematical internal scope"
+    },
+    "public_original": {
+      "files": 2633,
+      "internal_files": 18,
+      "categories": {
+        "definitions": 1875,
+        "axioms": 0,
+        "numbered_results": 747,
+        "helpers": 12025,
+        "outside": 960973
+      },
+      "line_total": 975620,
+      "internal_lines": 14647,
+      "name": "plby",
+      "url": "https://github.com/plby/Erdos90/tree/2062b0e6c9770c81e397bfe41148e90b92ca0567/src/original",
+      "source_commit": "2062b0e6c9770c81e397bfe41148e90b92ca0567",
+      "presentation_subtotal_lines": 14647,
+      "internal_lines_semantics": "legacy chart alias for presentation_subtotal_lines; not strict mathematical internal scope"
+    },
+    "logical_intelligence": {
+      "name": "Logical Intelligence",
+      "url": "https://github.com/logical-intelligence/erdos-unit-distance/tree/b6493074dd103ca32ea4f5e9b0bc9cb3a0379f2e",
+      "source_commit": "b6493074dd103ca32ea4f5e9b0bc9cb3a0379f2e",
+      "note": 4,
+      "files": 52,
+      "categories": {
+        "definitions": 442,
+        "axioms": 22,
+        "numbered_results": 346,
+        "helpers": 7805,
+        "outside": 22886
+      },
+      "line_total": 31501,
+      "assumptions": {
+        "external_mathematical_assumptions": 2,
+        "literal_axiom_declarations": 0,
+        "declaration_lines": 15,
+        "allocated_assumption_code_lines": 22,
+        "allocated_scaffolding_code_lines": 7,
+        "attached_comment_only_lines_counted": 0,
+        "legacy_allocated_range_lines": 105,
+        "legacy_attached_documentation_scaffolding_lines": 90
+      },
+      "source_pdf_revision": "Not pinned; original OpenAI proof attribution supported by repository and source construction.",
+      "internal_lines": 8615,
+      "presentation_subtotal_lines": 8615,
+      "semantic_scope_lines": {
+        "external": 22908,
+        "internal": 8593
+      },
+      "internal_lines_semantics": "legacy chart alias for presentation_subtotal_lines; not strict mathematical internal scope",
+      "internal_files": 16
+    },
+    "fbundle": {
+      "name": "fbundle",
+      "url": "https://github.com/fbundle/erdos90/tree/7197bb6c2d2ef0180bde588b3c350a404278d7c4",
+      "source_commit": "7197bb6c2d2ef0180bde588b3c350a404278d7c4",
+      "note": 5,
+      "files": 27,
+      "categories": {
+        "definitions": 1591,
+        "axioms": 26,
+        "numbered_results": 682,
+        "helpers": 1722,
+        "outside": 1784
+      },
+      "line_total": 5805,
+      "included_asset_drafts": 5,
+      "audit_scope": "Source-level audit; no Lean compiler recheck.",
+      "axiom_source": "https://github.com/fbundle/erdos90/blob/7197bb6c2d2ef0180bde588b3c350a404278d7c4/Erdos90/Axioms.lean#L25-L100",
+      "subtotal_note": 5,
+      "internal_lines": 4021,
+      "presentation_subtotal_lines": 4021,
+      "internal_lines_semantics": "legacy chart alias for presentation_subtotal_lines; not strict mathematical internal scope",
+      "internal_files": 17
+    }
+  },
+  "category_definitions": {
+    "definitions": "Except dedicated assumed specifications counted under Axioms: actual def, abbrev, opaque, structure, class, inductive, instance and other definition-form declarations, including entire bodies and proof fields. Top-level notation definitions included; nested term/where bindings stay with their enclosing declaration.",
+    "axioms": "Unproved mathematical assumptions in the retained partition, whether expressed as axiom/constant declarations, explicit theorem hypotheses, or dedicated specification definitions/structures. Referenced reusable data types and proved wrappers are not reclassified. Attached code scaffolding follows its declaration; comment-only lines are excluded. Not a transitive kernel-axiom inventory.",
+    "numbered_results": "Explicitly mapped main/numbered result endpoint declarations, including complete proofs; public includes selected concrete alternative endpoints. Supporting proof declarations are helpers.",
+    "helpers": "All remaining retained proof declarations plus declaration-free source scaffolding.",
+    "outside": "Formalized external/background and other repository code outside the audited retained partition, including unused code and included asset drafts."
+  },
+  "allocation": "Docs/attributes attach to following declaration; other intervening scope/import/comment/blank lines attach to preceding declaration. Leading/trailing scaffold attaches first/last. Declaration-free files are helpers. Public allocations are intersected with the unchanged internal cut; complement is outside. This allocation fixes the physical category partition; count only code outside comments within each range.",
+  "provenance": {
+    "public_commit": "2062b0e6c9770c81e397bfe41148e90b92ca0567",
+    "public_archive_sha256": "9ec6655f5d4d4adf97358697037f150bfee1ef76c3e7d14270c5412d68828351",
+    "public_internal_boundary_sha256": "4a0afa58ecd70685c9e8666cc1dc6dded4489a13ae7c6aa96652af8c11e0cb04",
+    "local_website_download_sha256_matches": "25 of 25 before website comment cleanup",
+    "historical_local_audit_hashes_available": false,
+    "range_manifest": "category-ranges.json",
+    "mapping": "public/endpoint-mapping.json",
+    "local_hash_inventory": "local/summary.json",
+    "decision_id": "D-20261028-183527-97b3700919001da6",
+    "website_source_directory": "site/data/unit-distance/files/",
+    "recount_script": "pipeline/recount_comparison.py + pipeline/lean_code_mask.py",
+    "additional_audits": {
+      "logical_intelligence": {
+        "source_commit": "b6493074dd103ca32ea4f5e9b0bc9cb3a0379f2e",
+        "semantic_reclassification": "Revision-2 categories preserved exactly: two external hypothesis ranges remain axioms. Legacy 105 allocated lines now contain 22 code lines.",
+        "validation": "Unchanged source inventory/hashes and exact physical partition; complete once-only coverage; whole-file lexical recount with category/per-file reconciliation. No Lean build.",
+        "legacy_category_ranges_sha256": "c48ff8a5b00431cd87d41c9e08d232515f01e8f246fae3359d29c0c5945562a1",
+        "legacy_summary_sha256": "9828ff48abd605675d113eeb02e012234997763219fe93af9ced125eb7c8c673",
+        "summary_sha256": "bab2d8fa8e9947eb6c8ef5f8d3d0eeb7307a1198d7d3971ddd91322698687d8a"
+      },
+      "fbundle": {
+        "source_commit": "7197bb6c2d2ef0180bde588b3c350a404278d7c4",
+        "validation": "Unchanged source inventory/hashes and exact physical partition; complete once-only coverage; whole-file lexical recount with category/per-file reconciliation. No Lean build.",
+        "legacy_count_ranges_sha256": "628d28b004834ab0d372aea6b622d685e686a1ee6b1dae163d5d777fd9c71d37",
+        "legacy_summary_sha256": "7368aec8c2f4ca6f68b9908b3f67df8cf271ea2ab131bacc9000ec530deffc30",
+        "summary_sha256": "0b6acafba7f5fb3b0424a32cedd0875964d1ada5d08bebdd962420ded6282aea",
+        "semantic_reclassification": "BRDTowerData allocated range Erdos90/Axioms.lean:1–43 moves 24 code lines from Definitions to Axioms (19 declaration/body + 5 scaffold); brd_tower_data range 44–102 retains 2. Axioms 26, Definitions 1591; source bytes, physical ranges, subtotal and total unchanged."
+      }
+    },
+    "prior_range_manifest_sha256": "e872282fd1e60ecb642d5fc0153c24a15409ca49beab3c3da3dad985424e6070",
+    "range_manifest_sha256": "28fb8015ef93135f48c4b30c25df0899c6cf4cb36c09dbfeb2126a2bc74a7c6b",
+    "local_code_counts_sha256": "e7deb9f3eecaadf4c434e2b9ed7be5617159fe659795b2884fc96c50f894af6b",
+    "explorer_code_counts": "manifest.json files[].code_lines; verified against authoritative source hashes and per-file counts before website comment cleanup; cleanup preserves every code-bearing line and all physical source positions",
+    "semantic_classification": "pipeline/comparison-classification.json",
+    "semantic_classification_sha256": "d1a259ec250b8eeb06b419ce9da45594a7f4ecb2c1aa7df658cd4cf8468747f8"
+  },
+  "limitations": [
+    "Exact under the retained internal cut, explicit endpoint mapping and scaffold allocation, not a boundary-independent measure of proof effort.",
+    "Public mapped endpoints include concrete alternative constructions; equal legend does not imply identical statements/proofs or one-to-one paper coverage.",
+    "Outside is the full excluded repository complement, not only necessary external theorem proofs.",
+    "Zero retained public axiom-declaration lines is not a transitive axiom-freedom claim.",
+    "Website and Downloads source bytes matched before website comment cleanup. Cleanup changes only standalone comments, preserving code and physical source positions. Historical audit hashes were not retained, so historical identity cannot be independently proved from that report.",
+    "Plain-text source-specific boundary audit only; no Lean, Lake, LSP, build, source edits or mathematical reaudit."
+  ],
+  "counting_rule": {
+    "blank_lines": "excluded",
+    "comment_only_lines": "excluded, including doc and nested block comments",
+    "code_with_trailing_comments": "included",
+    "code_before_or_after_block_comments": "included",
+    "literal_contents": "code; comment delimiters inside literals do not start comments",
+    "range_aggregation": "whole-file lexical mask intersected with unchanged physical ranges"
+  },
+  "plot": {
+    "outside_capacity_ratio": 0.25,
+    "scale": "All unbroken segments use the same linear scale; outside segments exceeding one quarter of the largest first-four-category subtotal are compressed to that capacity. Break markers appear only on compressed rows.",
+    "subtotal_categories": [
+      "definitions",
+      "axioms",
+      "numbered_results",
+      "helpers"
+    ]
+  },
+  "notes": [
+    {
+      "number": 1,
+      "topic": "Definitions",
+      "parts": [
+        "Definitions include definition-like declarations such as ",
+        {
+          "code": "def"
+        },
+        ", ",
+        {
+          "code": "abbrev"
+        },
+        ", ",
+        {
+          "code": "structure"
+        },
+        ", ",
+        {
+          "code": "class"
+        },
+        ", ",
+        {
+          "code": "inductive"
+        },
+        ", and ",
+        {
+          "code": "instance"
+        },
+        "."
+      ]
+    },
+    {
+      "number": 2,
+      "topic": "Semantic assumptions",
+      "parts": [
+        "The Axioms category counts unproved mathematical assumptions within each audited retained partition, including explicit theorem hypotheses and dedicated assumption specifications. All 11 HumanLean axioms encode external results cited by the paper; their proofs are left outside to keep the paper’s own argument readable."
+      ]
+    },
+    {
+      "number": 3,
+      "topic": "External/background and line allocation",
+      "parts": [
+        "External/background & other includes formalized external results, general APIs, unused code and included drafts. // marks compressed external segments; unbroken segments share a linear scale."
+      ]
+    },
+    {
+      "number": 4,
+      "topic": "Logical Intelligence assumptions",
+      "source_url": "https://github.com/logical-intelligence/erdos-unit-distance/blob/b6493074dd103ca32ea4f5e9b0bc9cb3a0379f2e/ErdosUnitDistance/Assumptions.lean#L1-L134",
+      "parts": [
+        "Logical Intelligence encodes two cited external assumptions as ",
+        {
+          "code": "def Prop"
+        },
+        " and theorem parameters, with zero literal axiom declarations. Its 22 allocated code lines comprise 15 declaration lines and 7 code-scaffolding lines. ",
+        {
+          "text": "Source",
+          "url": "https://github.com/logical-intelligence/erdos-unit-distance/blob/b6493074dd103ca32ea4f5e9b0bc9cb3a0379f2e/ErdosUnitDistance/Assumptions.lean#L1-L134"
+        },
+        "."
+      ]
+    },
+    {
+      "number": 5,
+      "topic": "fbundle subtotal methodology",
+      "source_url": "https://github.com/fbundle/erdos90/blob/7197bb6c2d2ef0180bde588b3c350a404278d7c4/Erdos90/Axioms.lean#L25-L100",
+      "parts": [
+        "fbundle’s smaller subtotal reflects the internal arithmetic construction being assumed as an axiom. Axioms includes its dedicated BRDTowerData specification and axiom declaration, with allocated code scaffolding (26 lines). ",
+        {
+          "text": "Source",
+          "url": "https://github.com/fbundle/erdos90/blob/7197bb6c2d2ef0180bde588b3c350a404278d7c4/Erdos90/Axioms.lean#L25-L100"
+        },
+        "."
+      ]
+    }
+  ],
+  "metric_supersession": {
+    "previous_unit": "lines excluding blanks and lines whose first non-whitespace characters are --",
+    "new_note": "Counts exclude blank lines and comment-only lines.",
+    "classification": "Same exact physical ranges; semantic categories include the curated dedicated-assumption specification override.",
+    "source_scope": "unchanged",
+    "proof_audit": "unchanged; no new mathematical faithfulness claims"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "source": {
+    "title": "Planar Point Sets with Many Unit Distances",
+    "url": "https://cdn.openai.com/pdf/74c24085-19b0-4534-9c90-465b8e29ad73/unit-distance-proof.pdf"
+  },
+  "statements": {
+    "Theorem 1.1": {
+      "page": 2,
+      "paragraphs": [
+        "For a finite set P in the Euclidean plane, ν(P) counts its unordered pairs of points at distance 1. Let ν(n) be the largest possible value of ν(P) among sets of n points.",
+        "A single absolute constant δ > 0 gives the following lower bound for infinitely many positive integers n."
+      ],
+      "formula": "ν(n) ≥ n^(1 + δ)",
+      "latex_paragraphs": [
+        "For a finite set \\(P\\) in the Euclidean plane, \\(\\nu(P)\\) counts its unordered pairs of points at distance \\(1\\). Let \\(\\nu(n)\\) be the largest possible value of \\(\\nu(P)\\) among sets of \\(n\\) points.",
+        "A single absolute constant \\(\\delta > 0\\) gives the following lower bound for infinitely many positive integers \\(n\\)."
+      ],
+      "latex_formula": "\\nu(n) \\ge n^{1+\\delta}"
+    },
+    "Proposition 2.2": {
+      "page": 6,
+      "paragraphs": [
+        "Take an admissible datum: L is a totally real number field of degree f = [L:ℚ], K = L(i) with i² = −1, and q₁, …, q_t are distinct rational primes, with t a positive integer. Each q_b is congruent to 1 modulo 4 and splits completely in L. Write Q = q₁⋯q_t, let O_K be the ring of integers of K, and let c be the nonidentity automorphism of K over L.",
+        "If the class number satisfies h(K) ≤ H^f for a real number H > 0, there is a set U ⊂ Q^(-2)O_K such that u c(u) = N_(K/L)(u) = 1 for every u ∈ U. Also, |σ(u)| = 1 for every u ∈ U and every embedding σ: K → ℂ. The size of U satisfies the bound below. Here log denotes the natural logarithm."
+      ],
+      "formula": "|U| ≥ exp((t log 2 − log H)f)",
+      "latex_paragraphs": [
+        "Take an admissible datum: \\(L\\) is a totally real number field of degree \\(f = [L:\\mathbb{Q}]\\), \\(K = L(i)\\) with \\(i^2 = -1\\), and \\(q_1,\\ldots,q_t\\) are distinct rational primes, with \\(t\\) a positive integer. Each \\(q_b\\) is congruent to \\(1\\) modulo \\(4\\) and splits completely in \\(L\\). Write \\(Q = q_1\\cdots q_t\\), let \\(O_K\\) be the ring of integers of \\(K\\), and let \\(c\\) be the nonidentity automorphism of \\(K\\) over \\(L\\).",
+        "If the class number satisfies \\(h(K) \\le H^f\\) for a real number \\(H > 0\\), there is a set \\(U \\subset Q^{-2}O_K\\) such that \\(u\\,c(u) = N_{K/L}(u) = 1\\) for every \\(u \\in U\\). Also, \\(|\\sigma(u)| = 1\\) for every \\(u \\in U\\) and every embedding \\(\\sigma\\colon K \\to \\mathbb{C}\\). The size of \\(U\\) satisfies the bound below. Here \\(\\log\\) denotes the natural logarithm."
+      ],
+      "latex_formula": "|U| \\ge \\exp\\bigl((t\\log 2 - \\log H)f\\bigr)"
+    },
+    "Theorem 2.3": {
+      "page": 7,
+      "paragraphs": [
+        "Suppose L_j are totally real number fields, K_j = L_j(i), and f_j = [L_j:ℚ] tends to infinity. Fix a positive integer t and distinct rational primes q₁, …, q_t, all congruent to 1 modulo 4, that split completely in every L_j. Thus these fields and the same fixed primes give a sequence of admissible data.",
+        "Assume there is one real constant H > 0, independent of j, for which h(K_j) ≤ H^(f_j) at every level and γ = t log 2 − log H > 0. Then some constant δ > 0 gives the following bound for infinitely many positive integers n. Here ν(n) is the maximum number of unordered unit-distance pairs in an n-point Euclidean planar set, and log is the natural logarithm."
+      ],
+      "formula": "ν(n) ≥ n^(1 + δ)",
+      "latex_paragraphs": [
+        "Suppose \\(L_j\\) are totally real number fields, \\(K_j = L_j(i)\\), and \\(f_j = [L_j:\\mathbb{Q}]\\) tends to infinity. Fix a positive integer \\(t\\) and distinct rational primes \\(q_1,\\ldots,q_t\\), all congruent to \\(1\\) modulo \\(4\\), that split completely in every \\(L_j\\). Thus these fields and the same fixed primes give a sequence of admissible data.",
+        "Assume there is one real constant \\(H > 0\\), independent of \\(j\\), for which \\(h(K_j) \\le H^{f_j}\\) at every level and \\(\\gamma = t\\log 2 - \\log H > 0\\). Then some constant \\(\\delta > 0\\) gives the following bound for infinitely many positive integers \\(n\\). Here \\(\\nu(n)\\) is the maximum number of unordered unit-distance pairs in an \\(n\\)-point Euclidean planar set, and \\(\\log\\) is the natural logarithm."
+      ],
+      "latex_formula": "\\nu(n) \\ge n^{1+\\delta}"
+    },
+    "Lemma 2.4": {
+      "page": 8,
+      "paragraphs": [
+        "Work with one admissible datum and its set U from Proposition 2.2 in the setting of Theorem 2.3. Put f = [L:ℚ], D = (q₁⋯q_t)^2, and γ = t log 2 − log H > 0. Choose one extension σ_r: K → ℂ of each real embedding of L, and set Φ(x) = (σ₁(x), …, σ_f(x)). In V = ℂ^f use the lattice Λ = Φ(D^(-1)O_K), and identify U with Φ(U) ⊂ Λ. Then |U| ≥ exp(γf), and every coordinate of each u ∈ U has modulus 1.",
+        "Let B_R = {z ∈ ℂ^f: max_r |z_r| ≤ R}. For a translate a + Λ define X_a = (a + Λ) ∩ B_R, N_a = |X_a|, and E_a as the number of ordered pairs (x, x′) ∈ X_a × X_a with x′ − x ∈ U. Write ρ_R for the area of overlap of two radius-R discs whose centers are distance 1 apart, divided by πR².",
+        "If R > 1/2 is chosen so that log ρ_R > −γ/2, some translate has a nonempty window section X_a and satisfies the following edge-count bound."
+      ],
+      "formula": "E_a ≥ exp(γf/2) N_a",
+      "latex_paragraphs": [
+        "Work with one admissible datum and its set \\(U\\) from Proposition 2.2 in the setting of Theorem 2.3. Put \\(f = [L:\\mathbb{Q}]\\), \\(D = (q_1\\cdots q_t)^2\\), and \\(\\gamma = t\\log 2 - \\log H > 0\\). Choose one extension \\(\\sigma_r\\colon K \\to \\mathbb{C}\\) of each real embedding of \\(L\\), and set \\(\\Phi(x) = (\\sigma_1(x),\\ldots,\\sigma_f(x))\\). In \\(V = \\mathbb{C}^f\\) use the lattice \\(\\Lambda = \\Phi(D^{-1}O_K)\\), and identify \\(U\\) with \\(\\Phi(U) \\subset \\Lambda\\). Then \\(|U| \\ge \\exp(\\gamma f)\\), and every coordinate of each \\(u \\in U\\) has modulus \\(1\\).",
+        "Let \\(B_R = \\{z \\in \\mathbb{C}^f : \\max_r |z_r| \\le R\\}\\). For a translate \\(a + \\Lambda\\) define \\(X_a = (a + \\Lambda) \\cap B_R\\), \\(N_a = |X_a|\\), and \\(E_a\\) as the number of ordered pairs \\((x,x^{\\prime}) \\in X_a \\times X_a\\) with \\(x^{\\prime} - x \\in U\\). Write \\(\\rho_R\\) for the area of overlap of two radius-\\(R\\) discs whose centers are distance \\(1\\) apart, divided by \\(\\pi R^2\\).",
+        "If \\(R > 1/2\\) is chosen so that \\(\\log \\rho_R > -\\gamma/2\\), some translate has a nonempty window section \\(X_a\\) and satisfies the following edge-count bound."
+      ],
+      "latex_formula": "E_a \\ge \\exp(\\gamma f/2)\\,N_a"
+    },
+    "Lemma 2.5": {
+      "page": 8,
+      "paragraphs": [
+        "Use the window section chosen in Lemma 2.4: X = (a + Λ) ∩ B_R, where Λ = Φ(D^(-1)O_K), K = L(i), f = [L:ℚ], and D = (q₁⋯q_t)^2. Here Φ(x) = (σ₁(x), …, σ_f(x)) uses one extension of each real embedding of L, and γ = t log 2 − log H > 0 is the exponent in that construction.",
+        "The first-coordinate projection π₁ is injective on X. Consequently the planar set P = π₁(X) ⊂ ℂ has |P| = |X|, and its number ν(P) of unordered unit-distance pairs satisfies the bound below."
+      ],
+      "formula": "ν(P) ≥ (1/2) exp(γf/2) |P|",
+      "latex_paragraphs": [
+        "Use the window section chosen in Lemma 2.4: \\(X = (a + \\Lambda) \\cap B_R\\), where \\(\\Lambda = \\Phi(D^{-1}O_K)\\), \\(K = L(i)\\), \\(f = [L:\\mathbb{Q}]\\), and \\(D = (q_1\\cdots q_t)^2\\). Here \\(\\Phi(x) = (\\sigma_1(x),\\ldots,\\sigma_f(x))\\) uses one extension of each real embedding of \\(L\\), and \\(\\gamma = t\\log 2 - \\log H > 0\\) is the exponent in that construction.",
+        "The first-coordinate projection \\(\\pi_1\\) is injective on \\(X\\). Consequently the planar set \\(P = \\pi_1(X) \\subset \\mathbb{C}\\) has \\(|P| = |X|\\), and its number \\(\\nu(P)\\) of unordered unit-distance pairs satisfies the bound below."
+      ],
+      "latex_formula": "\\nu(P) \\ge \\frac{1}{2}\\exp(\\gamma f/2)\\,|P|"
+    },
+    "Lemma 2.6": {
+      "page": 9,
+      "paragraphs": [
+        "Let P be the planar set obtained from the lattice window and projection in Lemmas 2.4–2.5, and put n = |P|. The field degree is f = [L:ℚ], the denominator is D = (q₁⋯q_t)^2, and R is the chosen radius of each disc in the product window. With B = 2 log(4RD), the number of points has the following upper bound."
+      ],
+      "formula": "n ≤ exp(Bf) = (4RD)^(2f)",
+      "latex_paragraphs": [
+        "Let \\(P\\) be the planar set obtained from the lattice window and projection in Lemmas 2.4–2.5, and put \\(n = |P|\\). The field degree is \\(f = [L:\\mathbb{Q}]\\), the denominator is \\(D = (q_1\\cdots q_t)^2\\), and \\(R\\) is the chosen radius of each disc in the product window. With \\(B = 2\\log(4RD)\\), the number of points has the following upper bound."
+      ],
+      "latex_formula": "n \\le \\exp(Bf) = (4RD)^{2f}"
+    },
+    "Proposition 3.2": {
+      "page": 10,
+      "paragraphs": [
+        "Choose distinct rational primes r₁, …, r_ℓ congruent to 1 modulo 3. For each index s, let L_s be the cyclic cubic subfield of ℚ(ζ_(r_s)), where ζ_(r_s) is a primitive r_s-th root of unity, and choose a cubic Dirichlet character χ_s of conductor r_s. Let M be the compositum L₁⋯L_ℓ. The product character χ = χ₁⋯χ_ℓ determines a cyclic cubic subfield F ⊂ M: F is the fixed field of its kernel under the cyclotomic Galois correspondence.",
+        "The fields L_s are totally real and jointly linearly disjoint over ℚ. Their compositum has Gal(M/ℚ) ≅ (ℤ/3ℤ)^ℓ, while Gal(M/F) ≅ (ℤ/3ℤ)^(ℓ − 1). Writing D = r₁⋯r_ℓ and D_F for the absolute discriminant of F, one has |D_F| = D². The extension M/F is unramified at every finite and infinite place."
+      ],
+      "latex_paragraphs": [
+        "Choose distinct rational primes \\(r_1,\\ldots,r_\\ell\\) congruent to \\(1\\) modulo \\(3\\). For each index \\(s\\), let \\(L_s\\) be the cyclic cubic subfield of \\(\\mathbb{Q}(\\zeta_{r_s})\\), where \\(\\zeta_{r_s}\\) is a primitive \\(r_s\\)-th root of unity, and choose a cubic Dirichlet character \\(\\chi_s\\) of conductor \\(r_s\\). Let \\(M\\) be the compositum \\(L_1\\cdots L_\\ell\\). The product character \\(\\chi = \\chi_1\\cdots\\chi_\\ell\\) determines a cyclic cubic subfield \\(F \\subset M\\): \\(F\\) is the fixed field of its kernel under the cyclotomic Galois correspondence.",
+        "The fields \\(L_s\\) are totally real and jointly linearly disjoint over \\(\\mathbb{Q}\\). Their compositum has \\(\\operatorname{Gal}(M/\\mathbb{Q}) \\cong (\\mathbb{Z}/3\\mathbb{Z})^\\ell\\), while \\(\\operatorname{Gal}(M/F) \\cong (\\mathbb{Z}/3\\mathbb{Z})^{\\ell-1}\\). Writing \\(D = r_1\\cdots r_\\ell\\) and \\(D_F\\) for the absolute discriminant of \\(F\\), one has \\(|D_F| = D^2\\). The extension \\(M/F\\) is unramified at every finite and infinite place."
+      ]
+    },
+    "Proposition 3.6": {
+      "page": 11,
+      "paragraphs": [
+        "Let F^(ur,3) denote the maximal everywhere-unramified pro-3 extension of the field F, and put G = Gal(F^(ur,3)/F). Let Φ(G) be its Frattini subgroup, the intersection of its maximal proper open subgroups. Let E/F be the finite subextension corresponding to the quotient G/Φ(G).",
+        "For every positive integer t and every prescribed finite set of excluded rational primes, one can choose distinct primes q₁, …, q_t outside that set which split completely in the normal closure of E(i) over ℚ.",
+        "Each selected q_b is congruent to 1 modulo 4 and splits completely in F. For every prime v of F above q_b, the Frobenius class has identity image in G/Φ(G). A Frobenius representative at v therefore belongs to Φ(G)."
+      ],
+      "latex_paragraphs": [
+        "Let \\(F^{\\mathrm{ur},3}\\) denote the maximal everywhere-unramified pro-\\(3\\) extension of the field \\(F\\), and put \\(G = \\operatorname{Gal}(F^{\\mathrm{ur},3}/F)\\). Let \\(\\Phi(G)\\) be its Frattini subgroup, the intersection of its maximal proper open subgroups. Let \\(E/F\\) be the finite subextension corresponding to the quotient \\(G/\\Phi(G)\\).",
+        "For every positive integer \\(t\\) and every prescribed finite set of excluded rational primes, one can choose distinct primes \\(q_1,\\ldots,q_t\\) outside that set which split completely in the normal closure of \\(E(i)\\) over \\(\\mathbb{Q}\\).",
+        "Each selected \\(q_b\\) is congruent to \\(1\\) modulo \\(4\\) and splits completely in \\(F\\). For every prime \\(v\\) of \\(F\\) above \\(q_b\\), the Frobenius class has identity image in \\(G/\\Phi(G)\\). A Frobenius representative at \\(v\\) therefore belongs to \\(\\Phi(G)\\)."
+      ]
+    },
+    "Proposition 3.7": {
+      "page": 12,
+      "paragraphs": [
+        "There is a positive absolute constant C_class for which the following bound holds for every number field K. Here h(K) is its class number and rd(K) = |D_K|^(1/[K:ℚ]) is its root discriminant. The same C_class works independently of K, its degree, and its signature.",
+        "For rd(K) ≥ 2, this is the bound h(K) ≤ rd(K)^(O([K:ℚ])) = |D_K|^(O(1)), with absolute implicit constants."
+      ],
+      "formula": "h(K) ≤ max{2, rd(K)}^(C_class [K:ℚ])",
+      "latex_paragraphs": [
+        "There is a positive absolute constant \\(C_{\\mathrm{class}}\\) for which the following bound holds for every number field \\(K\\). Here \\(h(K)\\) is its class number and \\(\\operatorname{rd}(K) = |D_K|^{1/[K:\\mathbb{Q}]}\\) is its root discriminant. The same \\(C_{\\mathrm{class}}\\) works independently of \\(K\\), its degree, and its signature.",
+        "For \\(\\operatorname{rd}(K) \\ge 2\\), this is the bound \\(h(K) \\le \\operatorname{rd}(K)^{O([K:\\mathbb{Q}])} = |D_K|^{O(1)}\\), with absolute implicit constants."
+      ],
+      "latex_formula": "h(K) \\le \\max\\{2,\\operatorname{rd}(K)\\}^{C_{\\mathrm{class}}[K:\\mathbb{Q}]}"
+    },
+    "Proposition 3.8": {
+      "page": 12,
+      "paragraphs": [
+        "For every sufficiently large integer ℓ, set t = ⌊(ℓ − 1)^2/100⌋. There exist a number field F, distinct rational primes q₁, …, q_t chosen independently of the level j, and fields F_j starting with F₀ = F, with all six properties below. Write f_j = [F_j:ℚ] and K_j = F_j(i). For a number field E, h(E) denotes its class number and rd(E) = |D_E|^(1/[E:ℚ]) its root discriminant.",
+        "P1. The field F is a totally real cyclic extension of ℚ of degree 3. It contains no primitive cube root of unity ζ₃, and log rd(F) = O(ℓ log ℓ).",
+        "P2. There is an infinite ascending tower F = F₀ ⊂ F₁ ⊂ F₂ ⊂ ⋯. Each F_j/F is finite and Galois, is unramified at all finite and infinite places, and has a Galois group of 3-power order. The degrees f_j tend to infinity.",
+        "P3. Every F_j is totally real, and rd(F_j) = rd(F) at every level.",
+        "P4. For every b with 1 ≤ b ≤ t, the prime q_b is congruent to 1 modulo 4 and splits completely in every F_j.",
+        "P5. There is a positive constant H_ℓ, independent of j, such that rd(K_j) ≤ 2 rd(F) and h(K_j) ≤ H_ℓ^(f_j) for every j, with log H_ℓ = O(ℓ log ℓ).",
+        "P6. The constants satisfy t log 2 − log H_ℓ > 0."
+      ],
+      "latex_paragraphs": [
+        "For every sufficiently large integer \\(\\ell\\), set \\(t = \\lfloor(\\ell-1)^2/100\\rfloor\\). There exist a number field \\(F\\), distinct rational primes \\(q_1,\\ldots,q_t\\) chosen independently of the level \\(j\\), and fields \\(F_j\\) starting with \\(F_0 = F\\), with all six properties below. Write \\(f_j = [F_j:\\mathbb{Q}]\\) and \\(K_j = F_j(i)\\). For a number field \\(E\\), \\(h(E)\\) denotes its class number and \\(\\operatorname{rd}(E) = |D_E|^{1/[E:\\mathbb{Q}]}\\) its root discriminant.",
+        "P1. The field \\(F\\) is a totally real cyclic extension of \\(\\mathbb{Q}\\) of degree \\(3\\). It contains no primitive cube root of unity \\(\\zeta_3\\), and \\(\\log\\operatorname{rd}(F) = O(\\ell\\log\\ell)\\).",
+        "P2. There is an infinite ascending tower \\(F = F_0 \\subset F_1 \\subset F_2 \\subset \\cdots\\). Each \\(F_j/F\\) is finite and Galois, is unramified at all finite and infinite places, and has a Galois group of \\(3\\)-power order. The degrees \\(f_j\\) tend to infinity.",
+        "P3. Every \\(F_j\\) is totally real, and \\(\\operatorname{rd}(F_j) = \\operatorname{rd}(F)\\) at every level.",
+        "P4. For every \\(b\\) with \\(1 \\le b \\le t\\), the prime \\(q_b\\) is congruent to \\(1\\) modulo \\(4\\) and splits completely in every \\(F_j\\).",
+        "P5. There is a positive constant \\(H_\\ell\\), independent of \\(j\\), such that \\(\\operatorname{rd}(K_j) \\le 2\\operatorname{rd}(F)\\) and \\(h(K_j) \\le H_\\ell^{f_j}\\) for every \\(j\\), with \\(\\log H_\\ell = O(\\ell\\log\\ell)\\).",
+        "P6. The constants satisfy \\(t\\log 2 - \\log H_\\ell > 0\\)."
+      ]
+    },
+    "Proposition A.13": {
+      "page": 16,
+      "paragraphs": [
+        "Combining Minkowski’s bound on ideal-class representatives with the elementary divisor-function estimate for the number of ideals of a given norm yields the bound below for every number field K. Here h(K) is the class number and rd(K) = |D_K|^(1/[K:ℚ]) is the root discriminant. The implicit constant is absolute.",
+        "When rd(K) ≥ 2, the equivalent discriminant form is h(K) ≤ |D_K|^(O(1)), again with an absolute implicit constant."
+      ],
+      "formula": "h(K) ≤ max{2, rd(K)}^(O([K:ℚ]))",
+      "latex_paragraphs": [
+        "Combining Minkowski’s bound on ideal-class representatives with the elementary divisor-function estimate for the number of ideals of a given norm yields the bound below for every number field \\(K\\). Here \\(h(K)\\) is the class number and \\(\\operatorname{rd}(K) = |D_K|^{1/[K:\\mathbb{Q}]}\\) is the root discriminant. The implicit constant is absolute.",
+        "When \\(\\operatorname{rd}(K) \\ge 2\\), the equivalent discriminant form is \\(h(K) \\le |D_K|^{O(1)}\\), again with an absolute implicit constant."
+      ],
+      "latex_formula": "h(K) \\le \\max\\{2,\\operatorname{rd}(K)\\}^{O([K:\\mathbb{Q}])}"
+    }
+  }
+}

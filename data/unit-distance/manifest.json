@@ -1,0 +1,275 @@
+{
+ "paper": "Planar point sets with many unit distances",
+ "theorem": "Theorem 1.1",
+ "lean": "leanprover/lean4:v4.29.1",
+ "mathlib": "v4.29.1",
+ "files": [
+  {
+   "path": "Formalization/Axioms.lean",
+   "role": "axioms",
+   "lines": 199,
+   "code_lines": 161
+  },
+  {
+   "path": "Formalization/Definition.lean",
+   "role": "definitions",
+   "lines": 245,
+   "code_lines": 168
+  },
+  {
+   "path": "Formalization/Main.lean",
+   "role": "entry",
+   "lines": 35,
+   "code_lines": 13
+  },
+  {
+   "path": "Formalization/Result/Lemma_2p4.lean",
+   "role": "result",
+   "lines": 168,
+   "code_lines": 158,
+   "label": "Lemma 2.4",
+   "theorem": "paper_2_4",
+   "doc": "Lemma 2.4, with nonempty referring to the window section."
+  },
+  {
+   "path": "Formalization/Result/Lemma_2p5.lean",
+   "role": "result",
+   "lines": 103,
+   "code_lines": 94,
+   "label": "Lemma 2.5",
+   "theorem": "paper_2_5",
+   "doc": "Lemma 2.5: injectivity and the count of unordered unit pairs."
+  },
+  {
+   "path": "Formalization/Result/Lemma_2p6.lean",
+   "role": "result",
+   "lines": 114,
+   "code_lines": 104,
+   "label": "Lemma 2.6",
+   "theorem": "paper_2_6",
+   "doc": "Lemma 2.6, in the standing Section 2 setup."
+  },
+  {
+   "path": "Formalization/Result/Proposition_2p2.lean",
+   "role": "result",
+   "lines": 233,
+   "code_lines": 222,
+   "label": "Proposition 2.2",
+   "theorem": "paper_2_2",
+   "doc": "Proposition 2.2, PDF-derived transcription, pp. 6–7."
+  },
+  {
+   "path": "Formalization/Result/Proposition_3p2.lean",
+   "role": "result",
+   "lines": 208,
+   "code_lines": 197,
+   "label": "Proposition 3.2",
+   "theorem": "paper_3_2",
+   "doc": "Proposition 3.2. All subfields are formed in the common cyclotomic field. The degree product states joint linear disjointness of this finite family."
+  },
+  {
+   "path": "Formalization/Result/Proposition_3p6.lean",
+   "role": "result",
+   "lines": 116,
+   "code_lines": 105,
+   "label": "Proposition 3.6",
+   "theorem": "paper_3_6",
+   "doc": "Proposition 3.6. Compatible Frobenius means a representative whose restriction is Frobenius in every finite Galois subextension."
+  },
+  {
+   "path": "Formalization/Result/Proposition_3p7.lean",
+   "role": "result",
+   "lines": 19,
+   "code_lines": 12,
+   "label": "Proposition 3.7",
+   "theorem": "paper_3_7",
+   "doc": "Proposition 3.7, the second numbered presentation of the class estimate."
+  },
+  {
+   "path": "Formalization/Result/Proposition_3p8.lean",
+   "role": "result",
+   "lines": 409,
+   "code_lines": 394,
+   "label": "Proposition 3.8",
+   "theorem": "paper_3_8",
+   "doc": "Proposition 3.8, including all P1–P6 and uniform constants. The injective field maps implement the nested tower; nonsurjectivity makes successive inclusions proper. The base is the zeroth admissible field."
+  },
+  {
+   "path": "Formalization/Result/Proposition_Ap13.lean",
+   "role": "result",
+   "lines": 88,
+   "code_lines": 78,
+   "label": "Proposition A.13",
+   "theorem": "paper_A_13",
+   "doc": "Proposition A.13: a constant uniform in field, degree and signature."
+  },
+  {
+   "path": "Formalization/Result/Theorem_1p1.lean",
+   "role": "result",
+   "lines": 23,
+   "code_lines": 15,
+   "label": "Theorem 1.1",
+   "theorem": "paper_1_1",
+   "doc": "Theorem 1.1, for infinitely many positive integer sizes."
+  },
+  {
+   "path": "Formalization/Result/Theorem_2p3.lean",
+   "role": "result",
+   "lines": 141,
+   "code_lines": 131,
+   "label": "Theorem 2.3",
+   "theorem": "paper_2_3",
+   "doc": "Theorem 2.3: the geometric conclusion from a sequence of admissible data."
+  },
+  {
+   "path": "Formalization/Result/helpers/Lemma_2p4/Machinery.lean",
+   "role": "helper",
+   "lines": 368,
+   "code_lines": 346,
+   "label": "Lemma 2.4"
+  },
+  {
+   "path": "Formalization/Result/helpers/Lemma_2p5/Machinery.lean",
+   "role": "helper",
+   "lines": 74,
+   "code_lines": 66,
+   "label": "Lemma 2.5"
+  },
+  {
+   "path": "Formalization/Result/helpers/Lemma_2p6/Machinery.lean",
+   "role": "helper",
+   "lines": 54,
+   "code_lines": 46,
+   "label": "Lemma 2.6"
+  },
+  {
+   "path": "Formalization/Result/helpers/Proposition_2p2/Machinery.lean",
+   "role": "helper",
+   "lines": 514,
+   "code_lines": 485,
+   "label": "Proposition 2.2"
+  },
+  {
+   "path": "Formalization/Result/helpers/Proposition_3p2/Machinery.lean",
+   "role": "helper",
+   "lines": 553,
+   "code_lines": 517,
+   "label": "Proposition 3.2"
+  },
+  {
+   "path": "Formalization/Result/helpers/Proposition_3p6/Machinery.lean",
+   "role": "helper",
+   "lines": 117,
+   "code_lines": 107,
+   "label": "Proposition 3.6"
+  },
+  {
+   "path": "Formalization/Result/helpers/Proposition_3p7/Machinery.lean",
+   "role": "helper",
+   "lines": 11,
+   "code_lines": 6,
+   "label": "Proposition 3.7"
+  },
+  {
+   "path": "Formalization/Result/helpers/Proposition_3p8/Machinery.lean",
+   "role": "helper",
+   "lines": 581,
+   "code_lines": 550,
+   "label": "Proposition 3.8"
+  },
+  {
+   "path": "Formalization/Result/helpers/Proposition_Ap13/Machinery.lean",
+   "role": "helper",
+   "lines": 558,
+   "code_lines": 519,
+   "label": "Proposition A.13"
+  },
+  {
+   "path": "Formalization/Result/helpers/Theorem_1p1/Machinery.lean",
+   "role": "helper",
+   "lines": 20,
+   "code_lines": 15,
+   "label": "Theorem 1.1"
+  },
+  {
+   "path": "Formalization/Result/helpers/Theorem_2p3/Machinery.lean",
+   "role": "helper",
+   "lines": 123,
+   "code_lines": 109,
+   "label": "Theorem 2.3"
+  }
+ ],
+ "axioms": [
+  {
+   "name": "chebotarevSplitPrimes",
+   "doc": "Neukirch VII §13: only the completely split Chebotarev case.",
+   "line": 18
+  },
+  {
+   "name": "idealArithmeticFacts",
+   "doc": "General arithmetic facts from Neukirch I §§1–5. Unique factorization, transport of ideals and multiplicativity of ideal norms also have their ordinary library interfaces; no counting inequality is assumed.",
+   "line": 26
+  },
+  {
+   "name": "discriminantAndSplittingFacts",
+   "doc": "Discriminants, unramified primes and finite splitting in towers. These are general identities, without a root-discriminant or tower bound.",
+   "line": 47
+  },
+  {
+   "name": "minkowskiFractionalIdealLattice",
+   "doc": "The full lattice theorem for a nonzero fractional ideal and one embedding from each conjugate pair. The window unfolding identity is not an axiom.",
+   "line": 75
+  },
+  {
+   "name": "minkowskiIdealClassBound",
+   "doc": "Only the Minkowski representative bound, with the signature factor.",
+   "line": 90
+  },
+  {
+   "name": "cyclotomicCharacterFacts",
+   "doc": "Prime cubic characters and the general conductor–discriminant formula. CRT and character multiplication retain their native library meanings.",
+   "line": 104
+  },
+  {
+   "name": "primeNumberTheoremModThree",
+   "doc": "Prime number theorem consequence for the fixed progression 1 modulo 3.",
+   "line": 126
+  },
+  {
+   "name": "frattiniQuotientFacts",
+   "doc": "General Frattini and basis facts; the relations are any chosen elements of the Frattini subgroup, not specifically the paper's Frobenius elements.",
+   "line": 134
+  },
+  {
+   "name": "golodShafarevichCriterion",
+   "doc": "Golod–Shafarevich at the odd prime 3, with nontriviality explicit.",
+   "line": 153
+  },
+  {
+   "name": "unramifiedClassFieldCorrespondence",
+   "doc": "Unramified class field theory and its profinite Galois correspondence. The last clause gives compatible Frobenius representatives, without imposing any splitting on any chosen infinite extension.",
+   "line": 164
+  },
+  {
+   "name": "shafarevichCubicRelationBound",
+   "doc": "Shafarevich's uniform relation estimate for totally real cubic bases only.",
+   "line": 188
+  }
+ ],
+ "definitions": 29,
+ "stats": {
+  "files": 25,
+  "lines": 5074,
+  "code_lines": 4618,
+  "review_lines": 2101,
+  "helper_lines": 2973,
+  "results": 11
+ },
+ "comparison": {
+  "name": "plby/Erdos90",
+  "url": "https://github.com/plby/Erdos90/tree/2062b0e6c9770c81e397bfe41148e90b92ca0567/src/original",
+  "files": 2633,
+  "lines": 1197763,
+  "internal_lines": 16557
+ }
+}
