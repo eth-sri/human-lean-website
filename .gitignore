@@ -1,0 +1,25 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment / secrets
+.env
+.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Node (if tooling is added later)
+node_modules/
+
+# Lean build output
+.lake/
